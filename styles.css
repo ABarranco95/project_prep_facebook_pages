@@ -32,3 +32,12 @@ button {
   border: none;
   color: white;
 }
+
+.site-features {
+  float: left;
+  clear: left;
+}
+
+.signup-forms {
+  float: right;
+}
