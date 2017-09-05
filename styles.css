@@ -1,1 +1,34 @@
+html, body {
+ margin: 0;
+}
 
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.top-box {
+  background-color: #3B5998;
+  color: white;
+  height: 85px;
+
+}
+
+h1 {
+  font-size: 40px;
+  float: left;
+  padding-left: 30px;
+}
+
+.container {
+  float: right;
+  padding-top: 45px;
+  padding-right: 40px;
+}
+
+button {
+  background-color: #4267B2;
+  border: none;
+  color: white;
+}
