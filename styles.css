@@ -21,9 +21,10 @@ html, body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 44px;
   float: left;
-  padding-left: 30px;
+  padding-left: 50px;
+
 }
 
 h2 {
@@ -32,8 +33,17 @@ h2 {
 
 .container {
   float: right;
-  padding-top: 45px;
-  padding-right: 40px;
+  padding-top: 30px;
+  padding-right: 30px;
+
+}
+
+.container form {
+  display: inline-block;
+}
+
+.container input br {
+  height: 20px;
 }
 
 button {
@@ -45,7 +55,7 @@ button {
 .site-features {
   float: left;
   clear: left;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .features-list li {
@@ -90,4 +100,12 @@ input {
 .confirm-pw input {
   width: 408px;
   height: 30px;
+}
+
+.birthday-forms select {
+  height: 30px
+}
+
+.birthday-forms {
+  display: block;
 }
