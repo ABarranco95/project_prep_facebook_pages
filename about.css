@@ -12,11 +12,12 @@ img {
   width: 1080px;
   height: 300px;
   padding: 0px 100px 0px 100px;
+
 }
 
 .top-box {
   width: 100%;
-  height: 100px;
+  height: 65px;
   background-color: #3B5998;
   color: White;
 
@@ -25,7 +26,7 @@ img {
 .top-box h2 {
   font-size: 36px;
   margin-left: 100px;
-  margin-top: 55px;
+  margin-top: 18px;
   float: left;
 }
 
@@ -33,20 +34,53 @@ img {
   float: left;
   width: 680px;
   margin-left: 70px;
-  margin-top: 66px;
+  margin-top: 30px;
   font-size: 18px;
 }
 
 .top-box p {
   float: right;
   margin-right: 110px;
-  margin-top: 66px;
+  margin-top: 30px;
   font-size: 20px;
 }
 
 .center-top h2 {
-  border: solid black;
-  width: 180px;
-  margin-left: 300px;
+  position: absolute;
+  margin-left: 280px;
   margin-bottom: 50px;
+  top: 300px;
+  font-size: 34px;
+  color: white;
+  font-weight: normal;
+}
+
+.center-top table {
+  position: absolute;
+  top: 365px;
+  margin-left: 100px;
+  padding: 5px;
+  font-size: 18px;
+  width: 1080px;
+  border-collapse: collapse;
+
+
+}
+
+.center-top table th{
+  width: 200px;
+  height: 40px;
+  border: 1.5px solid #ddd;
+
+}
+
+#timeline-space {
+  width: 400px;
+}
+
+#profile-edit {
+  text-align: right;
+  padding-right: 5px;
+  width: 900px;
+  font-weight: lighter;
 }
